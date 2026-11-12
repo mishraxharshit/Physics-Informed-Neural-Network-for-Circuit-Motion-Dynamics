@@ -1,0 +1,115 @@
+{
+  "rc_circuit": {
+    "summary_mean_std_over_5_seeds": {
+      "pinn": {
+        "rel_l2_full": {
+          "mean": 0.0021021083409734345,
+          "std": 0.0026662286575807113
+        },
+        "rel_l2_interpolation": {
+          "mean": 0.002600113507687406,
+          "std": 0.002704208231091555
+        },
+        "rel_l2_extrapolation": {
+          "mean": 0.001815789551521989,
+          "std": 0.0027437653114736646
+        },
+        "max_abs_error_V": {
+          "mean": 0.013700561594743288,
+          "std": 0.013400744508986335
+        }
+      },
+      "data_only": {
+        "rel_l2_full": {
+          "mean": 0.09487694834995661,
+          "std": 0.033150950372523975
+        },
+        "rel_l2_interpolation": {
+          "mean": 0.012381996316928259,
+          "std": 0.0016521734404001654
+        },
+        "rel_l2_extrapolation": {
+          "mean": 0.10693986630193204,
+          "std": 0.03752263939955293
+        },
+        "max_abs_error_V": {
+          "mean": 0.8898346400857591,
+          "std": 0.29220949997250406
+        }
+      }
+    },
+    "per_seed": {
+      "pinn": [
+        {
+          "rel_l2_full": 0.0012158998125359345,
+          "rel_l2_interpolation": 0.002579723027233826,
+          "rel_l2_extrapolation": 0.00022433910967185238,
+          "max_abs_error_V": 0.0150761715846226
+        },
+        {
+          "rel_l2_full": 0.0003875226358386672,
+          "rel_l2_interpolation": 0.0007596324092318957,
+          "rel_l2_extrapolation": 0.00018003219614679938,
+          "max_abs_error_V": 0.00444329417300704
+        },
+        {
+          "rel_l2_full": 0.0009123172701442252,
+          "rel_l2_interpolation": 0.0009986298558986987,
+          "rel_l2_extrapolation": 0.0008870289026640756,
+          "max_abs_error_V": 0.0055324550092832325
+        },
+        {
+          "rel_l2_full": 0.007404660545160067,
+          "rel_l2_interpolation": 0.00783965417304515,
+          "rel_l2_extrapolation": 0.007280083756122822,
+          "max_abs_error_V": 0.03925819918141382
+        },
+        {
+          "rel_l2_full": 0.0005901414411882801,
+          "rel_l2_interpolation": 0.0008229280730274576,
+          "rel_l2_extrapolation": 0.0005074637930043965,
+          "max_abs_error_V": 0.004192688025389746
+        }
+      ],
+      "data_only": [
+        {
+          "rel_l2_full": 0.09870453366513775,
+          "rel_l2_interpolation": 0.01391045489147795,
+          "rel_l2_extrapolation": 0.11125170039821157,
+          "max_abs_error_V": 0.9625885463357591
+        },
+        {
+          "rel_l2_full": 0.05372836489881946,
+          "rel_l2_interpolation": 0.01115810645730482,
+          "rel_l2_extrapolation": 0.06040504213832849,
+          "max_abs_error_V": 0.5460121608377122
+        },
+        {
+          "rel_l2_full": 0.15073107424653956,
+          "rel_l2_interpolation": 0.009738186303104433,
+          "rel_l2_extrapolation": 0.17018090593546054,
+          "max_abs_error_V": 1.3571112132669114
+        },
+        {
+          "rel_l2_full": 0.06986793498329653,
+          "rel_l2_interpolation": 0.013341216079038274,
+          "rel_l2_extrapolation": 0.07860737010302767,
+          "max_abs_error_V": 0.610307452738347
+        },
+        {
+          "rel_l2_full": 0.10135283395598976,
+          "rel_l2_interpolation": 0.013762017853715823,
+          "rel_l2_extrapolation": 0.11425431293463192,
+          "max_abs_error_V": 0.9731538272500657
+        }
+      ]
+    }
+  },
+  "projectile": {
+    "rel_l2_x": 0.012209074485893876,
+    "rel_l2_y": 0.04187201914212599,
+    "max_abs_error_x_m": 0.26616896042251703,
+    "max_abs_error_y_m": 0.43098868287282954
+  },
+  "runtime_seconds": 205.2
+}
